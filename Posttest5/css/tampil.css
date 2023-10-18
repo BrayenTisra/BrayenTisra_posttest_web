@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin:0;
+}  
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #27374D;
+    background-image: url(../img/home.png);
+    background-position: center;
+}
+.profil {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: #526D82;
+}
+
+.profil .border{
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border img{
+    width: 35%;
+}
+
+.border .kembali a{
+    text-decoration: none;
+    color: black;
+}
