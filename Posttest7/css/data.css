@@ -1,0 +1,61 @@
+* {
+    padding:0;
+    margin:0;
+}  
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #27374D;
+    background-image: url(https://images.unsplash.com/photo-1584278773680-8d940a213dcf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1780);
+    background-position: center;
+    flex-direction: column;
+}
+
+.table{
+    width: 50%;
+    height: 75px;
+    background-color: #27374D;
+    border: 2px solid black;
+    font-family: italic small-caps bold 12px/30px Georgia, serif;
+    box-shadow: 2px 2px 5px black;
+}
+
+.table th{
+    color: white;
+}
+
+.table td{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.table i{
+    width: 25px;
+    color: white;
+}
+
+.btn a{  
+    background-color: #27374D; 
+    border: 2px solid #27374D;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn a {
+    transition-duration: 0.4s;
+}
+  
+.btn a:hover {
+    background-color: white;
+    color: #27374D;
+}
